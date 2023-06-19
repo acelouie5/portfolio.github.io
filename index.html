@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ace.</title>
+    <script src="https://kit.fontawesome.com/b1ab34c4fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>A</span>ce.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p><span>Back-End</span> Developer</p>
+                <h1>Hi, I'm <span>A</span>ce Louie S. Mendoza</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/ace.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About Me</h1>
+                    <p> 
+                        I'm kind of person who embodies an unwavering enthusiasm for learning and possesses a remarkable ability to seamlessly adapt to diverse academic environments. 
+                        With an insatiable thirst for knowledge, I exude an eagerness that is infectious, 
+                        inspiring both peers and educators alike.
+                        
+                        In every educational setting, be it a traditional classroom, a hands-on laboratory, or a virtual learning platform, 
+                        I demonstrates an unmatched willingness to dive headfirst into new subjects, concepts, and challenges. My genuine curiosity serves as a driving force, 
+                        propelling them to explore the depths of various disciplines, asking insightful questions, and seeking innovative solutions.</p>
+                       
+                       
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" ><span>S</span>kills</p>
+                            <p class="tab-links" onclick="opentab('experience')" ><Span>E</Span>xperience</p>
+                            <p class="tab-links"onclick="opentab('education')" ><span>E</span>ducation</p>
+                        </div>
+                        <div class="tab-contents active-content" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Back-End</span> <br> Developer Web/Windows Application
+                                </li>
+                                <li>
+                                    <span>Web Development</span> <br> Web App Development
+                                </li>
+                                <li>
+                                    <span>Windows Application</span> <br> Building Windows Application
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents"  id="experience">
+                            <ul>
+                                <li>
+                                    <span>2019-2019</span> <br> Work Immersion
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2020 - Current</span> <br> Systems Plus Computer College
+                                </li>
+                                <li>
+                                    <span>2018 - 2020</span> <br> (Senior High School) Systems Plus Computer College
+                                </li>
+                                <li>
+                                    <span>2014 - 2018 </span> <br> Caloocan High School
+                                </li>
+                                <li>
+                                    <span>2012 - 2018 </span> <br> Cecilio Apostol Elementary School
+                                </li>
+                              
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-------Services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle"> My Services</h1>
+        <div class="services-list">
+           
+            <div><i class="fa-solid fa-code" style="color: #fff;"></i>
+                <h2>Web Design</h2>
+                <p>My web app services for the back end offer solid and dependable answers to fuel the logic and functionality of your online apps. No matter if you're developing a straightforward website or a sophisticated web-based platform, our back-end services are made to do the grunt work and guarantee smooth data storage, processing, and communication.
+                </p>
+                <a href="#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer" style="color:#fff;"></i>
+                <h2>Build Windows App/Software </h2>
+                <p>My Build Windows App/Software services for the back end provide all-inclusive answers to power the logic and functionality of your Windows programs. Our back-end services are made to handle the grunt work and guarantee flawless data storage, processing, and communication whether you're creating a desktop application, client-server system, or multi-tier corporate software.
+                </p>
+                <a href="#"> Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------Portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./image/work1.png">
+                <div class="layer">
+                    <h3>CyberHub</h3>
+                    <p>Infographic website with vision to help the people to avoid the malwares.</p>
+                    <a href="https://acelouie5.github.io/CHs.github.co/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./image/work2.png">
+                <div class="layer">
+                    <h3>ThreatTracker</h3>
+                    <p>Infographic website with vision to help the people to avoid the malwares.</p>
+                    <a href="https://threattraker.github.io/ThreatTrackers/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> acelouie30@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 09150582387</p>
+               <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="./image/Ace-Louie-Mendoza.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ace. All-right Reserve 2023</p>
+    </div>
+</div>
+
+
+
+<script src="./js/script.js"></script>
+    
+</body>
+
+</html>
